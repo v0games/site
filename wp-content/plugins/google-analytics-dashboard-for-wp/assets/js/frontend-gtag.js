@@ -402,7 +402,7 @@ var ExactMetrics = function () {
 
 			/* Element */
 			valuesArray.el = el;					/* el is an a element so we can parse it */
-			valuesArray.el_href = el.href; 				/* "http://example.com:3000/pathname/?search=test#hash" */
+			valuesArray.el_href = el.href; 				/* "https://example.com:3000/pathname/?search=test#hash" */
 			valuesArray.el_protocol = el.protocol; 			/* "http:" */
 			valuesArray.el_hostname = el.hostname; 			/* "example.com" */
 			valuesArray.el_port = el.port; 				/* "3000" */
